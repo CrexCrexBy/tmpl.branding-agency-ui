@@ -5,12 +5,12 @@ import './App.css'
 import Card from '@/components/Card'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Card variant="light">
-        <h1>Заголовок</h1>
+      <Card variant="light2">
+        <h1>Карточка</h1>
         <p>Текст внутри карточки</p>
       </Card>
 
