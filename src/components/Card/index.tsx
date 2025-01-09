@@ -1,5 +1,5 @@
 import style from './style.module.scss';
-import { bemClass } from '@/utils/bemClass';
+import { bemClass } from '../../utils/bemClass';
 
 export const Card = ({ variant, children }: { variant?: string; children: React.ReactNode }) => {
 	const cardClass = bemClass({
