@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/tmpl.branding-agency-ui",
   plugins: [react()],
 })
